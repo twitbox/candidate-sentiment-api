@@ -16,5 +16,5 @@ Vagrant.configure(VAGRANT_API_VERSION) do |config|
     vb.name = "sentiment_api"
     vb.memory = "1536"
   end
-  config.vm.provision "shell", path: "provisioning/python.sh"
+  config.vm.provision "shell", path: "provisioning/provision.sh"
 end
