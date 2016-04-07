@@ -1,6 +1,15 @@
 # candidate-sentiment-api
 API Server to parse and retrieve tweet sentiments for political candidates 
 
+## Methodology
+Using a sentiment-parsing library, the following are aggregated for each candidate:
+- Replies to candidate's tweets
+- Tweets with one of the 5 most popular hashtags associated with the candidate
+- Tweets referencing candidate's account
+- Tweets mentioning the candidate by name
+
+A stream of the past 24 hours worth of data, chunked by novel tweets in 10 minute intervals, is maintained
+
 ## License
 The MIT License (MIT)
 

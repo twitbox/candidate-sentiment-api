@@ -5,4 +5,6 @@ def router(app):
   def index():
     return 'OK'
 
-search()
+  @app.route('/twitter/<hashtag>')
+  def search_twitter(hashtag):
+    return search(hashtag)
