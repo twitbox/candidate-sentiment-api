@@ -3,6 +3,7 @@ itsdangerous==0.24
 Jinja2==2.8
 MarkupSafe==0.23
 oauthlib==1.0.3
+redis==2.10.5
 requests==2.9.1
 requests-oauthlib==0.6.1
 six==1.10.0
